@@ -5,8 +5,8 @@
     <description>Welcome to my blog~!</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 12 Jan 2019 11:31:43 -0500</pubDate>
-    <lastBuildDate>Sat, 12 Jan 2019 11:31:43 -0500</lastBuildDate>
+    <pubDate>Sat, 12 Jan 2019 11:54:55 -0500</pubDate>
+    <lastBuildDate>Sat, 12 Jan 2019 11:54:55 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -14,8 +14,6 @@
         <description>&lt;h2 id=&quot;study-plannnn&quot;&gt;Study Plannnn&lt;/h2&gt;
 
 &lt;h2 id=&quot;course&quot;&gt;Course&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/posts/plan/Screenshot from 2019-01-11 15-31-35.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;before-course&quot;&gt;Before course&lt;/h3&gt;
 
