@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Backword Propagate in CNN"
-date: 2019-01-12 20:12:26 
+date: 2019-01-5 18:15:06 
 description: "Backword Propagate in CNN"
 tag: CNN
 
@@ -10,7 +10,7 @@ tag: CNN
 
 This article focus on the back propagate in CNN and its math foundation.
 
-The following picture shows the last 3 layer of CNN. This CNN has n layers totally. And we will demonstrate the **back propagate** and **weight updating** process of on it. 
+The following picture shows the last 3 layer of CNN. This CNN has n-1 layers totally. And we will demonstrate the **back propagate** and **weight updating** process of on it. 
 
 ![](/images/posts/Backword_CNN/IMG_0603.JPG)
 
@@ -63,3 +63,4 @@ The network reaches a convergence when the outcome of Loss function is stably le
 *This is only a study note. Correctness is not guaranteed*
 
 *Original work. Error correction and Forwarding is welcomed*.
+
