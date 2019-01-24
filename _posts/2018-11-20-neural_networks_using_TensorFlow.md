@@ -12,9 +12,7 @@ tags: 学习
 　　在本文中，我将介绍 `TensorFlow` , 帮你了解 `神经网络` 的实际作用，并使用 `TensorFlow` 来解决现实生活中的问题。 读这篇文章前，需要知道 `神经网络` 的基础知识和一些熟悉编程理念，文章中的代码是使用 `Pyhton` 编写的，所以还需要了解一些 `Python` 的基本语法，才能更有利对于文章的理解。                  
                            
 
-<div align="center">
-	<img src="/images/posts/tfimg/logo.jpg" height="300" width="500">  
-</div> 
+![](/images/posts/tfimg/logo.jpg)
 
 
 ### 目录
