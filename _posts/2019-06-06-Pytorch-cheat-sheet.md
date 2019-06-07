@@ -165,9 +165,9 @@ tensor([5.5000, 3.0000])
 
    more:
 
-   ![](/home/kunpeng/Documents/website/KunpengSong.github.io/images/posts/Pytorch_cheat_sheet/cat1.png)
+   ![](/images/posts/Pytorch_cheat_sheet/cat1.png)
 
-   ![](/home/kunpeng/Documents/website/KunpengSong.github.io/images/posts/Pytorch_cheat_sheet/cat2.png)
+   ![](/images/posts/Pytorch_cheat_sheet/cat2.png)
 
 9. torch.detach() or tensor1.detach()
 
@@ -278,7 +278,7 @@ Other element wise math function
 
 6. torch.clamp(tensor, min = min, max = max) : 
 
-   ![](/home/kunpeng/Documents/website/KunpengSong.github.io/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-06-07 10-14-23.png)
+   ![](/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-06-07 10-14-23.png)
 
 7. torch.clamp(tensor, min = min) : Clamps all elements in `input` to be larger or equal [`min`](https://pytorch.org/docs/stable/torch.html#torch.min).  (Similarly, max)
 
@@ -320,7 +320,7 @@ Other element wise math function
 
 18. torch.sigmoid(tensor) :
 
-     ![](/home/kunpeng/Documents/website/KunpengSong.github.io/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-12 05-06-46.png)
+     ![](/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-12 05-06-46.png)
 
 19. torch.sign(tensor) : 1, -1, 0 
 
@@ -386,7 +386,7 @@ Other element wise math function
 
 4. torch.cumsum(tensor, dim, dtype = None) : similar as cumprod 
 
-5. torch.dist(tensor1, tensor2, p=2) : Returns the p-norm (Frobenius norm) of (`input` - `other`), it is a scalar value ![](/home/kunpeng/Documents/website/KunpengSong.github.io/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-12 21-14-08.png) ![](/home/kunpeng/Documents/website/KunpengSong.github.io/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-12 21-32-13.png)
+5. torch.dist(tensor1, tensor2, p=2) : Returns the p-norm (Frobenius norm) of (`input` - `other`), it is a scalar value ![](/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-12 21-14-08.png) ![](/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-12 21-32-13.png)
 
 6. torch.mean(tensor, dim=None, keepdim =False) :
 
@@ -411,7 +411,7 @@ Other element wise math function
    # similarly: torch.median(); 
    ```
 
-7. torch.norm(tensor,  *p='fro'*, *dim=None*, *keepdim=False*, *out=None*) : Returns the matrix norm ![](/home/kunpeng/Documents/website/KunpengSong.github.io/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-12 21-29-14.png)
+7. torch.norm(tensor,  *p='fro'*, *dim=None*, *keepdim=False*, *out=None*) : Returns the matrix norm ![](/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-12 21-29-14.png)
 
 8. torch.std(tensor, dim=None) : Returns the standard-deviation of all elements in the `input` tensor. Similarly: var()
 
@@ -443,7 +443,7 @@ Other element wise math function
     + If tensor1 is 2-D, tensor2 is 1_D: matrix-vector product
     + At least one is N-D: 
 
-    ![](/home/kunpeng/Documents/website/KunpengSong.github.io/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-12 22-19-03.png)
+    ![](/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-12 22-19-03.png)
 
     ```python
     >>> a = torch.rand(3)
@@ -508,7 +508,7 @@ Other element wise math function
 
 13. torch.mm(*mat1*, *mat2*) : matrix multiplication of the matrices `mat1` and `mat2`. (m x n) (n x p) --> (m x p)
 
-    ![](/home/kunpeng/Documents/website/KunpengSong.github.io/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-12 22-46-41.png)
+    ![](/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-12 22-46-41.png)
 
 14. torch.mv(*mat*, *vec*) : matrix-vector product. mat is (*n*×*m*), `vec`1-D  of size m --> 1-D of size n. Not broadcastable. 
 
@@ -580,7 +580,7 @@ Other element wise math function
 
     more:
 
-    ![](/home/kunpeng/Documents/website/KunpengSong.github.io/images/posts/Pytorch_cheat_sheet/squeeze.png)
+    ![](/images/posts/Pytorch_cheat_sheet/squeeze.png)
 
 20. torch.tensor.item() :  Returns the value of this tensor as a standard Python number. This only works for tensors with one element.
 
@@ -886,9 +886,9 @@ References:
 
 10. conv_kernel size 
 
-    ![](/home/kunpeng/Documents/website/KunpengSong.github.io/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-16 23-03-19.png)
+    ![](/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-16 23-03-19.png)
 
-    ![](/home/kunpeng/Documents/website/KunpengSong.github.io/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-16 23-03-29.png)
+    ![](/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-16 23-03-29.png)
 
 11. specify GPU:
 
@@ -1040,7 +1040,7 @@ References:
 
 17. backward (retain_graph=True ) 
 
-    ![](/home/kunpeng/Documents/website/KunpengSong.github.io/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-19 21-37-41.png)
+    ![](/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-19 21-37-41.png)
 
     need d(d)/d(a) and d(e)/d(a): 
 
@@ -1071,7 +1071,7 @@ References:
 
     More example:
 
-    ![](/home/kunpeng/Documents/website/KunpengSong.github.io/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-19 21-45-00.png)
+    ![](/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-19 21-45-00.png)
 
     + This will work when: final_loss = loss1+loss2. And it is we need to update both model 1 and model 2 according to this final loss. 
     + This does not work when: we need to update model 1 according to only loss 1 and update model 2 according to loss1+loss2 (or only loss 2). This is what we said: update models separately. Then this approach will introduce loss 2 when updating model 1, which is not intended. 
@@ -1190,7 +1190,7 @@ References:
 
    Notice: 'transforms' are very powerful. But it performs on PIL image. That is why we normally can't see the direct result just like other functions: 
 
-   ![](/home/kunpeng/Documents/website/KunpengSong.github.io/images/posts/Pytorch_cheat_sheet/Screenshot%20from%202019-04-24%2005-11-55.png)
+   ![](/images/posts/Pytorch_cheat_sheet/Screenshot%20from%202019-04-24%2005-11-55.png)
 
    But the above issue can be solved by converting it back to tensor:
 
@@ -1198,7 +1198,7 @@ References:
    c = transforms.ToTensor()(transforms.Resize(3,3)(b))
    ```
 
-   ![](/home/kunpeng/Documents/website/KunpengSong.github.io/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-24 05-18-45.png)
+   ![](/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-24 05-18-45.png)
 
    Now: Enjoy the amazing power provided by 'torchvision.transforms' ! 
 
@@ -1206,7 +1206,7 @@ References:
 
 ### CIFAR-10
 
-![](/home/kunpeng/Documents/website/KunpengSong.github.io/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-16 13-20-17.png)
+![](/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-16 13-20-17.png)
 
 ```python
 def unpickle(file):
@@ -1241,7 +1241,7 @@ plt.axis('off')
 plt.imshow(img)
 ```
 
-![](/home/kunpeng/Documents/website/KunpengSong.github.io/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-16 14-35-27.png)
+![](/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-16 14-35-27.png)
 
 ```python
 img = np.ones((3,1024)).astype('uint8')
@@ -1254,7 +1254,7 @@ plt.axis('off')
 plt.imshow(img)
 ```
 
-![](/home/kunpeng/Documents/website/KunpengSong.github.io/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-16 14-35-37.png)
+![](/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-16 14-35-37.png)
 
 dataloader for CIFAR-10
 
@@ -1336,7 +1336,7 @@ dataloader = Data.DataLoader(
 
    If you see Loss is always 0, and results are almost white noise, it probably because of gradient vanish
 
-   ![](/home/kunpeng/Documents/website/KunpengSong.github.io/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-16 23-28-30.png)
+   ![](/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-16 23-28-30.png)
 
    Use spectral norm after each convolution to control the size of gradient update
 
@@ -1350,19 +1350,19 @@ dataloader = Data.DataLoader(
 
    But this leads to slower training. At the beginning, it seems to have collapsed, but gradually different results come out finally. Also, deeper CNN trains much slower than shallow CNN, and are more likely to be considered as collapse by mistake. (Actually, it is indeed more likely to collapse, but at least it won't suffer from gradient vanish) (left is one layer deeper than right, both of them uses spectral norm.)
 
-   ![](/home/kunpeng/Documents/website/KunpengSong.github.io/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-17 05-31-10.png)
+   ![](/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-17 05-31-10.png)
 
-   ![](/home/kunpeng/Documents/website/KunpengSong.github.io/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-17 05-39-40.png)
+   ![](/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-17 05-39-40.png)
 
 4. model collapse
 
-   ![](/home/kunpeng/Documents/website/KunpengSong.github.io/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-17 05-48-24.png)
+   ![](/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-17 05-48-24.png)
 
    Deeper and more complex model tends to collapse. 
 
    WGAN solved this issue almost completely. 
 
-   ![](/home/kunpeng/Documents/website/KunpengSong.github.io/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-21 14-36-22.png)![](/home/kunpeng/Documents/website/KunpengSong.github.io/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-21 14-37-08.png)
+   ![](/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-21 14-36-22.png)![](/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-21 14-37-08.png)
 
    Train D more:
 
@@ -1390,15 +1390,11 @@ dataloader = Data.DataLoader(
 
    + batch size 64
 
-     + ![](/home/kunpeng/Documents/website/KunpengSong.github.io/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-21 02-11-43.png)
-
-     + ![](/home/kunpeng/Documents/website/KunpengSong.github.io/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-21 01-58-48.png)
+     + ![](/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-21 01-58-48.png)
 
    + batch size 16
 
-     + ![](/home/kunpeng/Pictures/Screenshot from 2019-04-21 01-50-49.png)
-
-     + ![](/home/kunpeng/Documents/website/KunpengSong.github.io/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-21 02-08-17.png)
+     + ![](/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-21 02-08-17.png)
 
 6. one of the variables needed for gradient computation has been modified by an inplace operation
 
@@ -1457,7 +1453,7 @@ dataloader = Data.DataLoader(
 
    The image path is correct but still cannot find the training images. The key is the folder structure:
 
-   ![](/home/kunpeng/Documents/website/KunpengSong.github.io/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-20 21-48-33.png)
+   ![](/images/posts/Pytorch_cheat_sheet/Screenshot from 2019-04-20 21-48-33.png)
 
    At least one subfolder is needer. Change imaga_path to '  /common/users/ks1418/images/ ' will work. 
 
@@ -1499,17 +1495,17 @@ dataloader = Data.DataLoader(
 
     Check the GPU state:
 
-    ![](/home/kunpeng/Documents/website/KunpengSong.github.io/images/posts/Pytorch_cheat_sheet/Screenshot%20from%202019-04-21%2005-17-42.png)
+    ![](/images/posts/Pytorch_cheat_sheet/Screenshot%20from%202019-04-21%2005-17-42.png)
 
     Chose GPU with more memory:
 
-    ![](/home/kunpeng/Documents/website/KunpengSong.github.io/images/posts/Pytorch_cheat_sheet/Screenshot%20from%202019-04-21%2005-19-48.png)
+    ![](/images/posts/Pytorch_cheat_sheet/Screenshot%20from%202019-04-21%2005-19-48.png)
 
     Check Linux process:
 
-    ![](/home/kunpeng/Documents/website/KunpengSong.github.io/images/posts/Pytorch_cheat_sheet/Screenshot%20from%202019-04-21%2005-32-24.png)
+    ![](/images/posts/Pytorch_cheat_sheet/Screenshot%20from%202019-04-21%2005-32-24.png)
 
-    ![](/home/kunpeng/Documents/website/KunpengSong.github.io/images/posts/Pytorch_cheat_sheet/Screenshot%20from%202019-04-21%2005-33-30.png)
+    ![](/images/posts/Pytorch_cheat_sheet/Screenshot%20from%202019-04-21%2005-33-30.png)
 
     - RSS resident set size, the non-swapped physical memory that a task has used (in kiloBytes).
     - VSZ virtual memory size of the process in KiB (1024-byte units). 
@@ -1520,7 +1516,7 @@ dataloader = Data.DataLoader(
 
     - ps -aux | grep ks1418 : see processes only contain 'ks1418'.  ( ' | '  means Pipeline, the result of left is transfer to grep to filter keywords)
 
-      ![](/home/kunpeng/Documents/website/KunpengSong.github.io/images/posts/Pytorch_cheat_sheet/Screenshot%20from%202019-04-21%2005-54-01.png)
+      ![](/images/posts/Pytorch_cheat_sheet/Screenshot%20from%202019-04-21%2005-54-01.png)
 
     > When investigating, we found that there’s actually a bug in python multiprocessing that might keep the child process hanging around, as zombie processes.
     > It is not even visible to `nvidia-smi`.
